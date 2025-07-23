@@ -44,6 +44,7 @@ public class TicTacToeGame {
             String[] parts = s.split(",");
             int row = Integer.valueOf(parts[0]);;
             int col = Integer.valueOf(parts[1]);
+            sc.close();
 
             boolean pieceAddedSuccesfully = gameBoard.addPiece(row, col, playerTurn.playingPiece);
             
