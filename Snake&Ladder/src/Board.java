@@ -54,7 +54,7 @@ public class Board {
         }
     }
 
-    private Cells getCell(int playerPosition){
+    public Cells getCell(int playerPosition){
         int rowPos = playerPosition/cells.length;
         int colPos = playerPosition%cells.length;
         return cells[rowPos][colPos];
