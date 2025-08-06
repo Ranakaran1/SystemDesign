@@ -1,6 +1,5 @@
 import RoomElement.DeluxeRoom;
 import RoomElement.DoubleRoom;
-import RoomElement.RoomElement;
 import RoomElement.SingleRoom;
 import Visitor.RoomPricingVisitor;
 import Visitor.RoomVisitor;
